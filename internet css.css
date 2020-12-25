@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  display: flex;
+  font-family: 'Karla', sans-serif;
+}
+.boxhead a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 0.5px solid black;
+}
+
+.boxhead a:hover {
+  color: rgb(58, 49, 49);
+ 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: fixed;
+  width: 25%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /*   max-width: 25%; */
+  display: flex;
+  flex-direction: column;
+  background-color: #dedede;
+  padding: 1.5em;
+  overflow-y: auto;
+}
+
+#navbar header {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-variant: small-caps ;
+
+
+}
+
+.navbar-body {margin-top: 20px;}
+
+.nav-link {
+  text-decoration: none;
+  padding: 1em;
+  transition: all 0.5s;
+  font-size: 25px;
+  color: black;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+
+/*   border-top: 1px solid black; */
+}
+.nav-link:hover {transform: scale(1.2)
+}
+
+
+
+/* shift */
+
+
+/*Main Doc */
+#main-doc {
+  margin-left: 30%;
+  width: 70%;
+  letter-spacing: 1px;
+  text-align: justify;
+ 
+}
+
+.main-section {
+  padding: 1.5em;
+}
+
+.main-section header {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+img {background-color: snow;
+left: 50px;
+padding: 40px;
+align-self: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+figcaption {
+  text-align:center;
+  font-weight: bold;
+}
+
+table, th, td {
+    border: black;
+    border-style: solid;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px ;
+  }
+
+table{
+  margin: 15px;
+}
+table { background-color: snow; }
+
+th { background-color: #ffedcc; }
+
+  Code{  display: block;
+    position: relative;
+    left: 80px;
+    width: 590px;
+    background:#CCC4C4;
+    align-content: center;
+    word-break: normal;
+    word-wrap: normal;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+  footer {text-align: center;
+  
+  }
+
+
+
+  
+  .fa {
+    color: black;
+    right: 0px;
+  
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+    
+  }
+  
+  @media screen and (max-height: 300px) {
+    ul {
+      margin-top: 40px;
+    }
+  }
+  
